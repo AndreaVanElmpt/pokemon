@@ -31,7 +31,7 @@ function PokeList({}) {
      <>
 
        <div className='buttons-control'>
-          <div className='botton-next-prev'>
+          <div className='button-next-prev'>
             <Button
                type='button'
                disabled={!pokemonData.previous}
