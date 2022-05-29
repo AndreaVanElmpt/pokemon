@@ -1,0 +1,28 @@
+.pokemon-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    background-color: beige;
+    text-align: center;
+    padding: 5px;
+    width: 180px;
+    margin: 20px;
+    text-transform: capitalize;
+}
+
+.pokemon-card__abilities ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.pokemon-card__abilities li {
+    background-color: #dddddd;
+    padding: .25rem;
+    border-radius: 3px;
+}
+
+.pokemon-card__abilities li:not(:last-child) {
+    margin-bottom: .5rem;
+}

@@ -1,0 +1,48 @@
+.pagination{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+button {
+    display: inline-block;
+    font-weight: 400;
+    background-color: beige;
+    border: 2px solid #1b356e;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 55px;
+    width: 110px;
+    margin: 10px;
+
+}
+
+.button-next-prev{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+button:hover{
+    background-color: #acc4ed;
+}
+button:disabled{
+    background-color: #999;
+}
+button:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+button:not(:last-child){
+    margin-right: 1rem;
+}
+
+
+

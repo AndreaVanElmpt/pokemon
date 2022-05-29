@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 64px 16px;
+    background-color: #FFCB03;
+}
+
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+.logo{
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 3rem auto;
+
+
+}
+
+
+
+
+
