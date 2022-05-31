@@ -3,7 +3,7 @@ import React, {useEffect, useState} from "react";
 import './PokeCard.css'
 
 function PokeCard({ url }) {
-    const [pokemonData, setPokemonData] = useState([]);
+    const [pokemonData, setPokemonData] = useState();
 
 
     useEffect(()=>{ async function fetchData() {
@@ -22,7 +22,7 @@ function PokeCard({ url }) {
 
                 <div className='pokemon-card'>
 
-             {Object.keys(pokemonData).length > 0 &&
+             {pokemonData &&
                  <>
 
                      <h2>{pokemonData.name}</h2>
